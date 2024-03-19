@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     },
 
     texto:{
-        color: 'black',
+        color: 'blue',
         fontSize:20,
     },
 
