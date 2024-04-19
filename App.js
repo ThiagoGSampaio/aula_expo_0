@@ -5,11 +5,13 @@ import Exemplo_0 from './componets/exemplo_1';
 import Exemplo2 from './componets/exemplo_2';
 
 import Atividade_1 from './componets/atividade_1';
+import Atividade_2 from './componets/atividade_2';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo2/>
+      <Atividade_2/>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,9 +20,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#7c59b5',
+    backgroundColor: '#8be8a4',
     alignItems: 'center',
-    justifyContent: 'center',
+    /*justifyContent: 'center',*/
     padding: 18,
   },
 });
