@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: '#D1C4E9',
+        backgroundColor: '#8a6915',
         borderRadius:20,
         width: '100%',
         alignItems: 'center',
@@ -13,18 +13,28 @@ const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold',
         marginVertical: 20,
-        color: '#673AB7',
+        color: '#daa520',
         
     },
 
     botao:{
-        backgroundColor: "#fff",
+        //backgroundColor: "#fff",
         padding: 10,
         borderRadius: 10,
         borderWidth: 2,
         width: '80%',
-        alignItems: 'center'
+        alignItems: 'center',
+        borderColor: '#daa520',
     },
+
+    txtBotao:{
+        fontSize: 25,
+        color:'#daa520',
+    },
+
+    botaoPress:{
+        backgroundColor: '#daa520',
+    }, 
 
  
 })
