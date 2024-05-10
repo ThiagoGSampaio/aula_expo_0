@@ -34,7 +34,14 @@ const styles = StyleSheet.create({
 
     botaoPress:{
         backgroundColor: '#daa520',
+        
     }, 
+
+    txtNumero:{
+        fontSize: 35,
+        color:'#daa520',
+        marginVertical: 10,
+    }
 
  
 })
