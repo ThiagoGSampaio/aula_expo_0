@@ -26,11 +26,12 @@ const styles = StyleSheet.create({
 
     botao:{
         //backgroundColor: "#fff",
-        padding: 10,
+        padding: 20,
+        margin: 10,
         marginTop: 10,
         borderRadius: 10,
         borderWidth: 2,
-        width: '80%',
+        width: '20%',
         alignItems: 'center',
         borderColor: '#daa520',
     },
@@ -38,6 +39,7 @@ const styles = StyleSheet.create({
     txtBotao:{
         fontSize: 25,
         color:'#daa520',
+    
     },
 
     botaoPress:{
@@ -49,6 +51,7 @@ const styles = StyleSheet.create({
         fontSize: 35,
         color:'#daa520',
         marginVertical: 10,
+        
         
     }
 
